@@ -1,0 +1,128 @@
+* {
+	font-family: Helvetica, Arial, sans-serif; 
+	cursor: default;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-image: url(bg.png);
+	background-color: #fff;
+	color: #000;
+	margin: 30px
+}
+
+h1 {
+	font-family: Helvetica, Arial, sans-serif;
+	font-weight: normal; 
+	font-size: 26pt;
+}
+
+h2 {
+	font-family: Helvetica, Arial, sans-serif; 
+	font-weight: normal; 
+	text-transform: uppercase; 
+	font-size: 10pt;
+}
+
+a, a img {
+	position: relative; 
+	text-decoration: none; 
+	color: #000; 
+	cursor: pointer; 
+	font-size: 25px;
+	z-index: 1;
+}
+
+a:hover	{
+	color:#0ae;
+}
+
+a.picture + a.btn {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    bottom: 6px;
+	font-size: 35px;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+a.picture + a.btn:hover {
+    display: inline-block;
+	color: #0ae;
+	transition: opacity 3s;
+	opacity: 1;
+}
+
+.thumb {
+	text-align: center;
+	width: 250px;
+	height: 170px;
+	position: relative;
+	float: left;
+}
+
+.img {
+	border:3px solid transparent;
+}
+
+.img:hover {
+	border:3px solid #0ae;
+}
+
+#container {
+	background-image:url(logo.png); 
+	background-repeat:no-repeat; 
+	background-position:20px 16px; 
+	padding:20px 110px;
+}
+
+#header	{
+	margin-bottom:20px;
+}
+
+#navigation	{
+	text-transform:lowercase; 
+	margin-top:36px;
+	margin-bottom:25px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 16pt;
+}
+
+#content {
+	font-family: Helvetica, Arial, sans-serif; 
+	text-transform:lowercase; 
+	font-size:27pt;
+}
+
+#copy {
+	font-family: Helvetica, Arial, sans-serif; 
+	font-size:10pt; 
+	cursor:pointer; 
+	position:fixed; 
+	bottom:5px; 
+	right:5px;
+}
+
+#logout	{
+	float: right; 
+	margin-top: 16px; 
+	margin-right: 20px;
+}
+
+#logout img {
+	vertical-align: middle;
+}
+
+#logout a {
+	font: bold 15px Helvetica, Arial, sans-serif;
+}
+
+#go_top	{
+	font-size:20pt; 
+	cursor:pointer; 
+	position:fixed; 
+	bottom:10px; 
+	right:40px;
+}

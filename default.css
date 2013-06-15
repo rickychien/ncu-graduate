@@ -1,0 +1,51 @@
+body {
+	background: none;
+	background-color: #F0E5C8;
+}
+
+.logo-wrapper {
+	overflow: visible;
+	background-color: #FFFFFF;
+	padding: 20px;
+	box-shadow:4px 4px 12px 4px rgba(20%, 20%, 40%, 0.5);
+}
+
+.item-wrapper {
+	width: 165px;
+	height: 165px;
+	background-color: #FFFFFF;
+	float: left; 
+	padding: 10px 10px 10px 10px; 
+	margin: 10px 10px 10px 10px; 
+}
+
+.frame {
+    min-height: 788px;
+    text-align: center;
+}
+
+a {
+	color: #333333;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+.content {
+	text-align: center;
+	padding-top: 1px;
+	padding-bottom: 3em;
+}
+
+.item-content {
+	text-align: center;
+	padding-top: 1px;
+	padding-left: 70px;
+	padding-bottom: 3em;
+}
+
+#myCarousel {
+	width: 800px;
+	background-color: white;
+}
